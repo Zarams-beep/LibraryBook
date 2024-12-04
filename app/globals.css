@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary: #002F49;
+    --secondary: #4b8bbe;
+    --success: #08c074;
+    --danger: #f65252;
+    --warning: #ff7d00;
+    --accent: #D54E21;
+    --primary-text-color: #041822;
+    --secondary-text-color: #F8FBFD;
+    --border: #E2E9F6;
+    --grey: #59676e;
+    --background: #DDE4F2;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    /* height: 100vh; */
+}
+
+/* Target autofilled input fields */
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px white inset; /* Change 'white' to your desired background color */
+  box-shadow: 0 0 0px 1000px white inset;
+  -webkit-text-fill-color: inherit; /* Ensures the text color remains consistent */
+}
+
+input:-webkit-autofill::first-line {
+  font-family: inherit; /* Ensures autofilled text uses the same font */
+}
+
+input[type="checkbox"]:checked {
+    background-color: blue; /* Set background color when checked */
+    border: 1px solid blue; /* Adjust border when checked */
+  }

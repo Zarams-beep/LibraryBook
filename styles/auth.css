@@ -1,0 +1,70 @@
+.SignUpPage1{
+    @apply flex justify-center h-[58rem] py-8;
+  }
+ .loginPage{
+  @apply h-[45rem]
+ }
+  .forPage{
+    @apply flex justify-center pt-[3rem] w-[80%];
+  }
+  .signUp1{
+    @apply w-[50%] hidden mdd:flex items-center flex-col justify-center bg-[#3e2723] text-[#f5deb3] text-[6rem];
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  .signUp1 h5{
+    @apply text-[2rem] text-center
+  }
+  .signUp1 .tbBook{
+    @apply text-[3.5rem];
+  }
+  .signUp2{
+    @apply px-8 w-full py-2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  .login{
+    @apply flex flex-col justify-center
+  }
+  
+  .signUp2 form ul{
+    @apply list-none flex flex-col gap-3 mb-4;
+  }
+  .headerSignUp{
+    @apply text-center;
+  }
+  .divFlex{
+    @apply rounded-[.3rem] flex items-center;
+    border: 1px solid rgb(143, 142, 142);
+    transition: border-color 0.3s;
+  }
+  .divFlex:focus-within {
+    border: 2px solid blue;
+  }
+  .divFlex input{
+    @apply placeholder:text-[#3e2723] text-[#3e2723] bg-transparent
+  }
+  .passStyle .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+    border: none;
+  }
+  .eyeIcon{
+    @apply pr-4 cursor-pointer;
+    opacity: 0.4;
+  }
+  /* .my-custom-confirm-button {
+    width: 100% !important; 
+    background-color: whitesmoke; 
+    color: #212121; 
+    border: none;
+    border-radius: 5px; 
+    padding: 10px; 
+    box-sizing: border-box; 
+  }
+   */
+  .or{
+    @apply flex items-center justify-center gap-[.3rem] mt-4;
+  }
+  .or .line{
+    border: 1px solid black;
+  }
+  .sign{
+    @apply text-[blue] hover:text-[purple]
+  }

@@ -1,0 +1,1262 @@
+[
+    {
+      "id": 1,
+      "title": "The Winds of Change",
+      "author": "Alice Walker",
+      "publication_year": 2005,
+      "genre": ["Fiction", "Historical"],
+      "description": "A gripping historical novel set in the American South.",
+      "cover_image": "/eugene-chystiakov-wcMysLw5ROM-unsplash.jpg"
+    },
+    {
+      "id": 2,
+      "title": "The Lost Kingdom",
+      "author": "James Patterson",
+      "publication_year": 2010,
+      "genre": ["Adventure", "Mystery"],
+      "description": "A thrilling adventure of discovery and danger.",
+      "cover_image": "/girl-with-red-hat-mWI9FhbS43I-unsplash.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Echoes of Silence",
+      "author": "Zadie Smith",
+      "publication_year": 2012,
+      "genre": ["Drama", "Romance"],
+      "description": "A love story set against the backdrop of a changing world.",
+      "cover_image": "/kelly-sikkema-7hspi6m0yO4-unsplash.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Shadows of the Past",
+      "author": "Mark Twain",
+      "publication_year": 1998,
+      "genre": ["Mystery", "Thriller"],
+      "description": "A detective story with twists and turns.",
+      "cover_image": "/mediamodifier-QTL3JDJJ7OE-unsplash.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Through the Storm",
+      "author": "Maya Angelou",
+      "publication_year": 2015,
+      "genre": ["Autobiography", "Poetry"],
+      "description": "A powerful autobiographical work exploring hardship and triumph.",
+      "cover_image": "/anne-nygard-qY3xHh2MOms-unsplash.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Bound by Destiny",
+      "author": "John Green",
+      "publication_year": 2018,
+      "genre": ["Young Adult", "Fantasy"],
+      "description": "A tale of young love and an unexpected journey.",
+      "cover_image": "/thomas-martinsen-4H9IuFBIpYM-unsplash.jpg"
+    },
+    {
+      "id": 7,
+      "title": "The Silent Witness",
+      "author": "Agatha Christie",
+      "publication_year": 2003,
+      "genre": ["Mystery", "Crime"],
+      "description": "A classic mystery filled with suspense and intrigue.",
+      "cover_image": "/sophia-baboolal-rMYrkFfw36U-unsplash.jpg"
+    },
+    {
+      "id": 8,
+      "title": "The Dreamer's Path",
+      "author": "Chimamanda Ngozi Adichie",
+      "publication_year": 2019,
+      "genre": ["Literature", "Coming-of-Age"],
+      "description": "A coming-of-age story about finding one's identity.",
+      "cover_image": "/rhamely-ibWI5ILt9P0-unsplash.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Beneath the Stars",
+      "author": "Neil Gaiman",
+      "publication_year": 2020,
+      "genre": ["Fantasy", "Adventure"],
+      "description": "An enchanting tale of magic, adventure, and discovery.",
+      "cover_image": "/thought-catalog-6cfzNWD_KUo-unsplash.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Waves of the Ocean",
+      "author": "Ernest Hemingway",
+      "publication_year": 1980,
+      "genre": ["Fiction", "Drama"],
+      "description": "A heartfelt story of struggle and survival in a turbulent world.",
+      "cover_image": "/jan-kahanek-g3O5ZtRk2E4-unsplash.jpg"
+    },
+    {
+      "id": 11,
+      "title": "The Twilight Zone",
+      "author": "Ray Bradbury",
+      "publication_year": 1965,
+      "genre": ["Sci-Fi", "Dystopia"],
+      "description": "A speculative story about life in a distant future.",
+      "cover_image": "/charles-etoroma-ddPTOSMa-MI-unsplash.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Chasing the Sun",
+      "author": "Isabel Allende",
+      "publication_year": 2017,
+      "genre": ["Historical Fiction", "Romance"],
+      "description": "A passionate story set in the early 20th century.",
+      "cover_image": "/kelly-sikkema-2q_frVRXWfQ-unsplash.jpg"
+    },
+    {
+      "id": 13,
+      "title": "The Last Garden",
+      "author": "Barbara Kingsolver",
+      "publication_year": 2012,
+      "genre": ["Fiction", "Nature"],
+      "description": "A story of growth and transformation set in a small community.",
+      "cover_image": "/aaron-burden-AXqMy8MSSdk-unsplash.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Voices in the Dark",
+      "author": "J.K. Rowling",
+      "publication_year": 2014,
+      "genre": ["Fantasy", "Mystery"],
+      "description": "A magical mystery that takes the reader on a suspenseful journey.",
+      "cover_image": "/marissa-grootes-vdaJJbls3xE-unsplash.jpg"
+    },
+    {
+      "id": 15,
+      "title": "The Midnight Hour",
+      "author": "Stephen King",
+      "publication_year": 1995,
+      "genre": ["Horror", "Psychological Thriller"],
+      "description": "A chilling tale of terror and psychological suspense.",
+      "cover_image": "/kari-shea-apcUIqOPEIo-unsplash.jpg"
+    },
+    {
+      "id": 16,
+      "title": "The Eternal Flame",
+      "author": "Dan Brown",
+      "publication_year": 2016,
+      "genre": ["Thriller", "Adventure"],
+      "description": "A fast-paced thriller with a treasure hunt at its heart.",
+      "cover_image": "/debby-hudson-asviIGR3CPE-unsplash.jpg"
+    },
+    {
+      "id": 17,
+      "title": "The Hidden Valley",
+      "author": "John Steinbeck",
+      "publication_year": 1972,
+      "genre": ["Drama", "Adventure"],
+      "description": "A story of family, loss, and adventure in a secluded valley.",
+      "cover_image": "/josh-felise-yIMy3ERBc3o-unsplash.jpg"
+    },
+    {
+      "id": 18,
+      "title": "Falling Leaves",
+      "author": "Amy Tan",
+      "publication_year": 2011,
+      "genre": ["Historical Fiction", "Family"],
+      "description": "A poignant tale of generational ties and cultural identity.",
+      "cover_image": "/josh-felise-yIMy3ERBc3o-unsplash.jpg"
+    },
+    {
+      "id": 19,
+      "title": "Whispers in the Wind",
+      "author": "Victoria Hislop",
+      "publication_year": 2018,
+      "genre": ["Historical Fiction", "Drama"],
+      "description": "A heartwarming and heartbreaking story set during wartime.",
+      "cover_image": "/josh-felise-yIMy3ERBc3o-unsplash.jpg"
+    },
+    {
+      "id": 20,
+      "title": "The Golden City",
+      "author": "Carlos Ruiz Zafón",
+      "publication_year": 2022,
+      "genre": ["Historical Fiction", "Adventure"],
+      "description": "An adventurous story of love and betrayal in a forgotten city.",
+      "cover_image": "/rhamely-pJPE-ZlQVnM-unsplash.jpg"
+    },
+    {
+        "id": 21,
+        "title": "The Storm Rider",
+        "author": "Clive Cussler",
+        "publication_year": 2007,
+        "genre": ["Action", "Adventure"],
+        "description": "A thrilling action-packed journey across oceans and islands.",
+        "cover_image": "/rhamely-pJPE-ZlQVnM-unsplash.jpg"
+      },
+      {
+        "id": 22,
+        "title": "The Timekeeper",
+        "author": "Mitch Albom",
+        "publication_year": 2012,
+        "genre": ["Fiction", "Philosophical"],
+        "description": "A story that explores time, fate, and the meaning of life.",
+        "cover_image": "/rhamely-pJPE-ZlQVnM-unsplash.jpg"
+      },
+      {
+        "id": 23,
+        "title": "City of Mirrors",
+        "author": "Justin Cronin",
+        "publication_year": 2016,
+        "genre": ["Horror", "Fantasy"],
+        "description": "The final installment in a post-apocalyptic trilogy.",
+        "cover_image": "/rhamely-pJPE-ZlQVnM-unsplash.jpg"
+      },
+      {
+        "id": 24,
+        "title": "The Silent Garden",
+        "author": "Ruth Ware",
+        "publication_year": 2017,
+        "genre": ["Thriller", "Psychological"],
+        "description": "A gripping psychological thriller set in a quiet village.",
+        "cover_image": "/rhamely-pJPE-ZlQVnM-unsplash.jpg"
+      },
+      {
+        "id": 25,
+        "title": "The Midnight Library",
+        "author": "Matt Haig",
+        "publication_year": 2020,
+        "genre": ["Fantasy", "Philosophical"],
+        "description": "A woman explores alternate lives in a library between life and death.",
+        "cover_image": "/rhamely-pJPE-ZlQVnM-unsplash.jpg"
+      },
+      {
+        "id": 26,
+        "title": "A Light Between Oceans",
+        "author": "M.L. Stedman",
+        "publication_year": 2012,
+        "genre": ["Drama", "Romance"],
+        "description": "A moving love story set in a remote lighthouse.",
+        "cover_image": "/erik-mclean-aNZnKZKfAq8-unsplash.jpg"
+      },
+      {
+        "id": 27,
+        "title": "The Girl Who Lived",
+        "author": "Christopher Greyson",
+        "publication_year": 2016,
+        "genre": ["Thriller", "Suspense"],
+        "description": "A psychological thriller about a woman haunted by her past.",
+        "cover_image": "/erik-mclean-aNZnKZKfAq8-unsplash.jpg"
+      },
+      {
+        "id": 28,
+        "title": "The Last Magician",
+        "author": "Lisa Maxwell",
+        "publication_year": 2017,
+        "genre": ["Fantasy", "Historical Fiction"],
+        "description": "A magical adventure set in a historical setting of New York.",
+        "cover_image": "/erik-mclean-aNZnKZKfAq8-unsplash.jpg"
+      },
+      {
+        "id": 29,
+        "title": "The Ocean at the End of the Lane",
+        "author": "Neil Gaiman",
+        "publication_year": 2013,
+        "genre": ["Fantasy", "Coming-of-Age"],
+        "description": "A man returns to his childhood home and remembers dark and magical events.",
+        "cover_image": "/erik-mclean-aNZnKZKfAq8-unsplash.jpg"
+      },
+      {
+        "id": 30,
+        "title": "The Night Circus",
+        "author": "Erin Morgenstern",
+        "publication_year": 2011,
+        "genre": ["Fantasy", "Romance"],
+        "description": "A mysterious circus appears, with an extraordinary love story at its core.",
+        "cover_image": "/erik-mclean-aNZnKZKfAq8-unsplash.jpg"
+      },
+      {
+        "id": 31,
+        "title": "The Book Thief",
+        "author": "Markus Zusak",
+        "publication_year": 2005,
+        "genre": ["Historical Fiction", "War"],
+        "description": "A young girl steals books in Nazi Germany during World War II.",
+        "cover_image": "/erik-mclean-aNZnKZKfAq8-unsplash.jpg"
+      },
+      {
+        "id": 32,
+        "title": "The 5th Wave",
+        "author": "Rick Yancey",
+        "publication_year": 2013,
+        "genre": ["Sci-Fi", "Dystopia"],
+        "description": "A post-apocalyptic thriller with alien invasion themes.",
+        "cover_image": "/olga-prudnikova-EgYcr_N-UyE-unsplash.jpg"
+      },
+      {
+        "id": 33,
+        "title": "The Paris Library",
+        "author": "Janet Skeslien Charles",
+        "publication_year": 2020,
+        "genre": ["Historical Fiction", "Literature"],
+        "description": "A story set in Nazi-occupied Paris about a librarian's courage.",
+        "cover_image": "/olga-prudnikova-EgYcr_N-UyE-unsplash.jpg"
+      },
+      {
+        "id": 34,
+        "title": "Where the Crawdads Sing",
+        "author": "Delia Owens",
+        "publication_year": 2018,
+        "genre": ["Mystery", "Drama"],
+        "description": "A mystery intertwined with themes of love and loneliness in the marshlands.",
+        "cover_image": "/olga-prudnikova-EgYcr_N-UyE-unsplash.jpg"
+      },
+      {
+        "id": 35,
+        "title": "Big Little Lies",
+        "author": "Liane Moriarty",
+        "publication_year": 2014,
+        "genre": ["Fiction", "Mystery"],
+        "description": "A dark comedy about secrets and lies in a coastal town.",
+        "cover_image": "/olga-prudnikova-EgYcr_N-UyE-unsplash.jpg"
+      },
+      {
+        "id": 36,
+        "title": "All the Light We Cannot See",
+        "author": "Anthony Doerr",
+        "publication_year": 2014,
+        "genre": ["Historical Fiction", "War"],
+        "description": "The story of a blind girl and a German boy during World War II.",
+        "cover_image": "/olga-prudnikova-EgYcr_N-UyE-unsplash.jpg"
+      },
+      {
+        "id": 37,
+        "title": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "publication_year": 1985,
+        "genre": ["Dystopia", "Feminist"],
+        "description": "A dystopian novel about women’s rights in a theocratic society.",
+        "cover_image": "/olga-prudnikova-EgYcr_N-UyE-unsplash.jpg"
+      },
+      {
+        "id": 38,
+        "title": "Circe",
+        "author": "Madeline Miller",
+        "publication_year": 2018,
+        "genre": ["Fantasy", "Mythology"],
+        "description": "A reimagining of the myth of Circe from Greek mythology.",
+        "cover_image": "/olga-prudnikova-EgYcr_N-UyE-unsplash.jpg"
+      },
+      {
+        "id": 39,
+        "title": "The Night Watchman",
+        "author": "Louise Erdrich",
+        "publication_year": 2020,
+        "genre": ["Historical Fiction", "Drama"],
+        "description": "A Native American story of survival and justice.",
+        "cover_image": "/olga-prudnikova-EgYcr_N-UyE-unsplash.jpg"
+      },
+      {
+        "id": 40,
+        "title": "A Man Called Ove",
+        "author": "Fredrik Backman",
+        "publication_year": 2012,
+        "genre": ["Fiction", "Humor"],
+        "description": "A grumpy old man’s life is changed by his neighbors.",
+        "cover_image": "/surface-eChLA6svf_Y-unsplash.jpg"
+      },
+      {
+        "id": 41,
+        "title": "The Invisible Man",
+        "author": "H.G. Wells",
+        "publication_year": 1897,
+        "genre": ["Science Fiction", "Horror"],
+        "description": "A scientist discovers the secret to invisibility and goes mad.",
+        "cover_image": "/surface-eChLA6svf_Y-unsplash.jpg"
+      },
+      {
+        "id": 42,
+        "title": "The Book of Lost Things",
+        "author": "John Connolly",
+        "publication_year": 2006,
+        "genre": ["Fantasy", "Adventure"],
+        "description": "A boy discovers a world of strange creatures and magical forces.",
+        "cover_image": "/surface-eChLA6svf_Y-unsplash.jpg"
+      },
+      {
+        "id": 43,
+        "title": "The Nightingale",
+        "author": "Kristin Hannah",
+        "publication_year": 2015,
+        "genre": ["Historical Fiction", "War"],
+        "description": "The tale of two sisters in France during World War II.",
+        "cover_image": "/surface-eChLA6svf_Y-unsplash.jpg"
+      },
+      {
+        "id": 44,
+        "title": "Eleanor Oliphant Is Completely Fine",
+        "author": "Gail Honeyman",
+        "publication_year": 2017,
+        "genre": ["Fiction", "Humor"],
+        "description": "A quirky woman learns to break out of her isolation and embrace life.",
+        "cover_image": "/surface-eChLA6svf_Y-unsplash.jpg"
+      },
+      {
+        "id": 45,
+        "title": "The Great Alone",
+        "author": "Kristin Hannah",
+        "publication_year": 2018,
+        "genre": ["Historical Fiction", "Adventure"],
+        "description": "A family struggles to survive in the wilds of Alaska.",
+        "cover_image": "/surface-eChLA6svf_Y-unsplash.jpg"
+      },
+      {
+        "id": 46,
+        "title": "The Seven Husbands of Evelyn Hugo",
+        "author": "Taylor Jenkins Reid",
+        "publication_year": 2017,
+        "genre": ["Historical Fiction", "Romance"],
+        "description": "An aging movie star recounts her glamorous yet scandalous life.",
+        "cover_image": "/surface-eChLA6svf_Y-unsplash.jpg"
+      },
+      {
+        "id": 47,
+        "title": "The Silent Patient",
+        "author": "Alex Michaelides",
+        "publication_year": 2019,
+        "genre": ["Thriller", "Mystery"],
+        "description": "A woman stops speaking after shooting her husband, and a psychotherapist tries to uncover the truth.",
+        "cover_image": "/surface-eChLA6svf_Y-unsplash.jpg"
+      },
+      {
+        "id": 48,
+        "title": "The Song of Achilles",
+        "author": "Madeline Miller",
+        "publication_year": 2011,
+        "genre": ["Fantasy", "Romance"],
+        "description": "A retelling of the Iliad from the perspective of Achilles' lover, Patroclus.",
+        "cover_image": "/surface-eChLA6svf_Y-unsplash.jpg"
+      },
+      {
+        "id": 49,
+        "title": "The Tattooist of Auschwitz",
+        "author": "Heather Morris",
+        "publication_year": 2018,
+        "genre": ["Historical Fiction", "War"],
+        "description": "A love story set in the Auschwitz-Birkenau concentration camp during World War II.",
+        "cover_image": "/surface-eChLA6svf_Y-unsplash.jpg"
+      },
+      {
+        "id": 50,
+        "title": "The Night Watch",
+        "author": "Sarah Waters",
+        "publication_year": 2006,
+        "genre": ["Historical Fiction", "Lesbian Fiction"],
+        "description": "A story set in 1940s London, where lives are intertwined in war and romance.",
+        "cover_image": "/surface-eChLA6svf_Y-unsplash.jpg"
+      },
+      {
+        "id": 51,
+        "title": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "publication_year": 2008,
+        "genre": ["Dystopia", "Science Fiction"],
+        "description": "A young girl must compete in a televised survival game.",
+        "cover_image": "/mike-tinnion-3ym6i13Y9LU-unsplash.jpg"
+      },
+      {
+        "id": 52,
+        "title": "The Giver of Stars",
+        "author": "Jojo Moyes",
+        "publication_year": 2019,
+        "genre": ["Historical Fiction", "Drama"],
+        "description": "A story of a group of women who deliver books to remote communities in Depression-era Kentucky.",
+        "cover_image": "/mike-tinnion-3ym6i13Y9LU-unsplash.jpg"
+      },
+      {
+        "id": 53,
+        "title": "The Outsider",
+        "author": "Stephen King",
+        "publication_year": 2018,
+        "genre": ["Horror", "Mystery"],
+        "description": "A detective investigates a horrific murder with an unsettling supernatural twist.",
+        "cover_image": "/mike-tinnion-3ym6i13Y9LU-unsplash.jpg"
+      },
+      {
+        "id": 54,
+        "title": "The Shadow of the Wind",
+        "author": "Carlos Ruiz Zafón",
+        "publication_year": 2001,
+        "genre": ["Mystery", "Historical Fiction"],
+        "description": "A young boy uncovers the secrets of a forgotten book and its author.",
+        "cover_image": "/mike-tinnion-3ym6i13Y9LU-unsplash.jpg"
+      },
+      {
+        "id": 55,
+        "title": "The Help",
+        "author": "Kathryn Stockett",
+        "publication_year": 2009,
+        "genre": ["Historical Fiction", "Drama"],
+        "description": "The story of three women in the 1960s South who challenge racial boundaries.",
+        "cover_image": "/mike-tinnion-3ym6i13Y9LU-unsplash.jpg"
+      },
+      {
+        "id": 56,
+        "title": "The Last Thing He Told Me",
+        "author": "Laura Dave",
+        "publication_year": 2021,
+        "genre": ["Thriller", "Mystery"],
+        "description": "A woman searches for the truth behind her husband's disappearance.",
+        "cover_image": "/mike-tinnion-3ym6i13Y9LU-unsplash.jpg"
+      },
+      {
+        "id": 57,
+        "title": "The Priory of the Orange Tree",
+        "author": "Samantha Shannon",
+        "publication_year": 2019,
+        "genre": ["Fantasy", "Epic"],
+        "description": "A dragon-riding epic with magical kingdoms and fierce battles.",
+        "cover_image": "/mike-tinnion-3ym6i13Y9LU-unsplash.jpg"
+      },
+      {
+        "id": 58,
+        "title": "The Martian",
+        "author": "Andy Weir",
+        "publication_year": 2011,
+        "genre": ["Science Fiction", "Thriller"],
+        "description": "A stranded astronaut on Mars must survive using science and resourcefulness.",
+        "cover_image": "/mike-tinnion-3ym6i13Y9LU-unsplash.jpg"
+      },
+      {
+        "id": 59,
+        "title": "The Alice Network",
+        "author": "Kate Quinn",
+        "publication_year": 2017,
+        "genre": ["Historical Fiction", "War"],
+        "description": "A story about two women connected by espionage in World War I and World War II.",
+        "cover_image": "/mike-tinnion-3ym6i13Y9LU-unsplash.jpg"
+      },
+      {
+        "id": 60,
+        "title": "The Water Dancer",
+        "author": "Ta-Nehisi Coates",
+        "publication_year": 2019,
+        "genre": ["Historical Fiction", "Fantasy"],
+        "description": "A magical realist novel set in the pre-Civil War South about the journey to freedom.",
+        "cover_image": "/mike-tinnion-3ym6i13Y9LU-unsplash.jpg"
+      },
+      {
+        "id": 61,
+        "title": "Circe",
+        "author": "Madeline Miller",
+        "publication_year": 2018,
+        "genre": ["Fantasy", "Mythology"],
+        "description": "A retelling of the Greek myth of Circe, the enchantress.",
+        "cover_image": "/jan-kahanek-g3O5ZtRk2E4-unsplash.jpg"
+      },
+      {
+        "id": 62,
+        "title": "The Goldfinch",
+        "author": "Donna Tartt",
+        "publication_year": 2013,
+        "genre": ["Literary Fiction", "Thriller"],
+        "description": "A boy survives an explosion and becomes involved with the underworld.",
+        "cover_image": "/jan-kahanek-g3O5ZtRk2E4-unsplash.jpg"
+      },
+      {
+        "id": 63,
+        "title": "The Midnight Library",
+        "author": "Matt Haig",
+        "publication_year": 2020,
+        "genre": ["Fantasy", "Self-Help"],
+        "description": "A woman discovers a library that lets her explore alternate versions of her life.",
+        "cover_image": "/jan-kahanek-g3O5ZtRk2E4-unsplash.jpg"
+      },
+      {
+        "id": 64,
+        "title": "Where the Crawdads Sing",
+        "author": "Delia Owens",
+        "publication_year": 2018,
+        "genre": ["Mystery", "Drama"],
+        "description": "A young woman is raised in isolation and becomes the subject of a murder investigation.",
+        "cover_image": "/jan-kahanek-g3O5ZtRk2E4-unsplash.jpg"
+      },
+      {
+        "id": 65,
+        "title": "Big Little Lies",
+        "author": "Liane Moriarty",
+        "publication_year": 2014,
+        "genre": ["Fiction", "Drama"],
+        "description": "A story of love, friendship, and secrets set in a small Australian town.",
+        "cover_image": "/jan-kahanek-g3O5ZtRk2E4-unsplash.jpg"
+      },
+      {
+        "id": 66,
+        "title": "An American Marriage",
+        "author": "Tayari Jones",
+        "publication_year": 2018,
+        "genre": ["Fiction", "Romance"],
+        "description": "A marriage is tested when one partner is wrongfully imprisoned.",
+        "cover_image": "/jan-kahanek-g3O5ZtRk2E4-unsplash.jpg"
+      },
+      {
+        "id": 67,
+        "title": "The Vanishing Half",
+        "author": "Brit Bennett",
+        "publication_year": 2020,
+        "genre": ["Historical Fiction", "Drama"],
+        "description": "Twin sisters from a small town live vastly different lives based on their racial identities.",
+        "cover_image": "/jan-kahanek-g3O5ZtRk2E4-unsplash.jpg"
+      },
+      {
+        "id": 68,
+        "title": "Educated",
+        "author": "Tara Westover",
+        "publication_year": 2018,
+        "genre": ["Memoir", "Biography"],
+        "description": "A memoir about growing up in a strict and abusive household in rural Idaho.",
+        "cover_image": "/jan-kahanek-g3O5ZtRk2E4-unsplash.jpg"
+      },
+      {
+        "id": 69,
+        "title": "The Henna Artist",
+        "author": "Alka Joshi",
+        "publication_year": 2020,
+        "genre": ["Historical Fiction", "Romance"],
+        "description": "A woman in 1950s India escapes an abusive marriage and becomes a successful henna artist.",
+        "cover_image": "/jan-kahanek-g3O5ZtRk2E4-unsplash.jpg"
+      },
+      {
+        "id": 70,
+        "title": "Normal People",
+        "author": "Sally Rooney",
+        "publication_year": 2018,
+        "genre": ["Fiction", "Romance"],
+        "description": "A story about two young people navigating love and friendship through their university years.",
+        "cover_image": "/jan-kahanek-g3O5ZtRk2E4-unsplash.jpg"
+      },
+      {
+        "id": 71,
+        "title": "The Silent Corner",
+        "author": "Dean Koontz",
+        "publication_year": 2017,
+        "genre": ["Thriller", "Suspense"],
+        "description": "A retired FBI agent investigates mysterious suicides linked to a deadly conspiracy.",
+        "cover_image": "/jan-kahanek-g3O5ZtRk2E4-unsplash.jpg"
+      },
+      {
+        "id": 72,
+        "title": "The Alice Network",
+        "author": "Kate Quinn",
+        "publication_year": 2017,
+        "genre": ["Historical Fiction", "War"],
+        "description": "Two women from different eras uncover secrets of espionage during World War I and World War II.",
+        "cover_image": "/jan-kahanek-g3O5ZtRk2E4-unsplash.jpg"
+      },
+      {
+        "id": 73,
+        "title": "The Giver",
+        "author": "Lois Lowry",
+        "publication_year": 1993,
+        "genre": ["Dystopia", "Young Adult"],
+        "description": "A young boy begins to uncover the dark truths about his perfect, controlled society.",
+        "cover_image": "/jan-kahanek-g3O5ZtRk2E4-unsplash.jpg"
+      },
+      {
+        "id": 74,
+        "title": "The Night Circus",
+        "author": "Erin Morgenstern",
+        "publication_year": 2011,
+        "genre": ["Fantasy", "Mystery"],
+        "description": "A magical circus becomes the setting for a battle between two young illusionists.",
+        "cover_image": "/jan-kahanek-g3O5ZtRk2E4-unsplash.jpg"
+      },
+      {
+        "id": 75,
+        "title": "The Picture of Dorian Gray",
+        "author": "Oscar Wilde",
+        "publication_year": 1890,
+        "genre": ["Classic", "Philosophy"],
+        "description": "A young man makes a pact to never age while his portrait bears the marks of his immoral actions.",
+        "cover_image": "/jan-kahanek-g3O5ZtRk2E4-unsplash.jpg"
+      },
+      {
+        "id": 76,
+        "title": "The Paris Library",
+        "author": "Janet Skeslien Charles",
+        "publication_year": 2020,
+        "genre": ["Historical Fiction", "War"],
+        "description": "A young woman in Paris during WWII works in a library and becomes involved in the French Resistance.",
+        "cover_image": "/jan-kahanek-g3O5ZtRk2E4-unsplash.jpg"
+      },
+      {
+        "id": 77,
+        "title": "The 5th Wave",
+        "author": "Rick Yancey",
+        "publication_year": 2013,
+        "genre": ["Science Fiction", "Dystopia"],
+        "description": "After four waves of alien attacks, the Earth is left in ruins, and only a few humans remain.",
+        "cover_image": "/marissa-grootes-vdaJJbls3xE-unsplash.jpg"
+      },
+      {
+        "id": 78,
+        "title": "The Invisible Life of Addie LaRue",
+        "author": "V.E. Schwab",
+        "publication_year": 2020,
+        "genre": ["Fantasy", "Romance"],
+        "description": "A woman makes a deal to live forever, but is cursed to be forgotten by everyone she meets.",
+        "cover_image": "/marissa-grootes-vdaJJbls3xE-unsplash.jpg"
+      },
+      {
+        "id": 79,
+        "title": "The Midnight Library",
+        "author": "Matt Haig",
+        "publication_year": 2020,
+        "genre": ["Fantasy", "Self-Help"],
+        "description": "A woman discovers a library where each book represents a different life she could have lived.",
+        "cover_image": "/marissa-grootes-vdaJJbls3xE-unsplash.jpg"
+      },
+      {
+        "id": 80,
+        "title": "The Shadow of the Wind",
+        "author": "Carlos Ruiz Zafón",
+        "publication_year": 2001,
+        "genre": ["Mystery", "Historical Fiction"],
+        "description": "A boy uncovers the secrets of a forgotten book and its mysterious author.",
+        "cover_image": "/marissa-grootes-vdaJJbls3xE-unsplash.jpg"
+      },
+      {
+        "id": 81,
+        "title": "The Song of Achilles",
+        "author": "Madeline Miller",
+        "publication_year": 2011,
+        "genre": ["Historical Fiction", "Romance"],
+        "description": "A retelling of the Iliad from the perspective of Patroclus, focusing on his relationship with Achilles.",
+        "cover_image": "/marissa-grootes-vdaJJbls3xE-unsplash.jpg"
+      },
+      {
+        "id": 82,
+        "title": "The Nightingale",
+        "author": "Kristin Hannah",
+        "publication_year": 2015,
+        "genre": ["Historical Fiction", "War"],
+        "description": "Two sisters in Nazi-occupied France resist in their own ways during World War II.",
+        "cover_image": "/marissa-grootes-vdaJJbls3xE-unsplash.jpg"
+      },
+      {
+        "id": 83,
+        "title": "The Book Thief",
+        "author": "Markus Zusak",
+        "publication_year": 2005,
+        "genre": ["Historical Fiction", "Young Adult"],
+        "description": "A young girl steals books to escape the harsh reality of Nazi Germany, told from the perspective of Death.",
+        "cover_image": "/marissa-grootes-vdaJJbls3xE-unsplash.jpg"
+      },
+      {
+        "id": 84,
+        "title": "Circe",
+        "author": "Madeline Miller",
+        "publication_year": 2018,
+        "genre": ["Fantasy", "Mythology"],
+        "description": "A retelling of the Greek myth of Circe, the enchantress.",
+        "cover_image": "/marissa-grootes-vdaJJbls3xE-unsplash.jpg"
+      },
+      {
+        "id": 85,
+        "title": "The Silent Patient",
+        "author": "Alex Michaelides",
+        "publication_year": 2019,
+        "genre": ["Thriller", "Mystery"],
+        "description": "A woman shoots her husband and then stops speaking. A psychotherapist becomes obsessed with uncovering the truth.",
+        "cover_image": "/marissa-grootes-vdaJJbls3xE-unsplash.jpg"
+      },
+      {
+        "id": 86,
+        "title": "The Night Circus",
+        "author": "Erin Morgenstern",
+        "publication_year": 2011,
+        "genre": ["Fantasy", "Mystery"],
+        "description": "A magical circus becomes the setting for a battle between two young illusionists.",
+        "cover_image": "/marissa-grootes-vdaJJbls3xE-unsplash.jpg"
+      },
+      {
+        "id": 87,
+        "title": "Little Fires Everywhere",
+        "author": "Celeste Ng",
+        "publication_year": 2017,
+        "genre": ["Fiction", "Drama"],
+        "description": "Two families in a suburban neighborhood become entangled in a web of secrets and lies.",
+        "cover_image": "/marissa-grootes-vdaJJbls3xE-unsplash.jpg"
+      },
+      {
+        "id": 88,
+        "title": "The Outsiders",
+        "author": "S.E. Hinton",
+        "publication_year": 1967,
+        "genre": ["Young Adult", "Drama"],
+        "description": "A group of teenagers from different socioeconomic backgrounds face struggles of identity and belonging.",
+        "cover_image": "/marissa-grootes-vdaJJbls3xE-unsplash.jpg"
+      },
+      {
+        "id": 89,
+        "title": "The Light We Lost",
+        "author": "Jill Santopolo",
+        "publication_year": 2017,
+        "genre": ["Romance", "Fiction"],
+        "description": "A love story about two people who meet on September 11, 2001, and the choices that shape their lives.",
+        "cover_image": "/marissa-grootes-vdaJJbls3xE-unsplash.jpg"
+      },
+      {
+        "id": 90,
+        "title": "A Man Called Ove",
+        "author": "Fredrik Backman",
+        "publication_year": 2012,
+        "genre": ["Fiction", "Comedy"],
+        "description": "A grumpy but lovable old man forms unexpected relationships with his neighbors.",
+        "cover_image": "/marissa-grootes-vdaJJbls3xE-unsplash.jpg"
+      },
+      {
+        "id": 91,
+        "title": "The Help",
+        "author": "Kathryn Stockett",
+        "publication_year": 2009,
+        "genre": ["Historical Fiction", "Drama"],
+        "description": "Three women in 1960s Mississippi fight racial and social injustice in the South.",
+        "cover_image": "/marissa-grootes-vdaJJbls3xE-unsplash.jpg"
+      },
+      {
+        "id": 92,
+        "title": "The Alchemist",
+        "author": "Paulo Coelho",
+        "publication_year": 1988,
+        "genre": ["Adventure", "Philosophy"],
+        "description": "A young shepherd embarks on a journey to find treasure and discover the meaning of life.",
+        "cover_image": "/marissa-grootes-vdaJJbls3xE-unsplash.jpg"
+      },
+      {
+        "id": 93,
+        "title": "Before We Were Strangers",
+        "author": "Renée Carlino",
+        "publication_year": 2015,
+        "genre": ["Romance", "Fiction"],
+        "description": "Two former college sweethearts reconnect years later to explore what went wrong.",
+        "cover_image": "/marissa-grootes-vdaJJbls3xE-unsplash.jpg"
+      },
+      {
+        "id": 94,
+        "title": "The Shadow of the Wind",
+        "author": "Carlos Ruiz Zafón",
+        "publication_year": 2001,
+        "genre": ["Mystery", "Literary Fiction"],
+        "description": "A boy uncovers the secrets of a forgotten book and its mysterious author.",
+        "cover_image": "/marissa-grootes-vdaJJbls3xE-unsplash.jpg"
+      },
+      {
+        "id": 95,
+        "title": "The Time Traveler's Wife",
+        "author": "Audrey Niffenegger",
+        "publication_year": 2003,
+        "genre": ["Science Fiction", "Romance"],
+        "description": "A love story about a man with a genetic disorder that causes him to uncontrollably time travel.",
+        "cover_image": "/marissa-grootes-vdaJJbls3xE-unsplash.jpg"
+      },
+      {
+        "id": 96,
+        "title": "The Priory of the Orange Tree",
+        "author": "Samantha Shannon",
+        "publication_year": 2019,
+        "genre": ["Fantasy", "Adventure"],
+        "description": "An epic tale of dragons, magic, and strong women fighting to protect their world.",
+        "cover_image": "/marissa-grootes-vdaJJbls3xE-unsplash.jpg"
+      },
+      {
+        "id": 97,
+        "title": "Dune",
+        "author": "Frank Herbert",
+        "publication_year": 1965,
+        "genre": ["Science Fiction", "Epic"],
+        "description": "The story of a young man who must navigate the politics and dangers of a desert planet to ensure his survival.",
+        "cover_image": "/marissa-grootes-vdaJJbls3xE-unsplash.jpg"
+      },
+      {
+        "id": 98,
+        "title": "The Fault in Our Stars",
+        "author": "John Green",
+        "publication_year": 2012,
+        "genre": ["Romance", "Young Adult"],
+        "description": "Two teenagers with cancer form a bond as they fall in love and confront life’s challenges.",
+        "cover_image": "/marissa-grootes-vdaJJbls3xE-unsplash.jpg"
+      },
+      {
+        "id": 99,
+        "title": "The Maze Runner",
+        "author": "James Dashner",
+        "publication_year": 2009,
+        "genre": ["Dystopia", "Young Adult"],
+        "description": "A group of teens wakes up in a maze with no memory and must work together to escape.",
+        "cover_image": "/marissa-grootes-vdaJJbls3xE-unsplash.jpg"
+      },
+      {
+        "id": 100,
+        "title": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "publication_year": 2008,
+        "genre": ["Dystopia", "Adventure"],
+        "description": "A young girl must fight in a televised competition to the death, while struggling against a totalitarian government.",
+        "cover_image": "/debby-hudson-asviIGR3CPE-unsplash.jpg"
+      },
+      {
+        "id": 101,
+        "title": "The Picture of Dorian Gray",
+        "author": "Oscar Wilde",
+        "publication_year": 1890,
+        "genre": ["Philosophical Fiction", "Gothic"],
+        "description": "A young man remains eternally youthful while his portrait ages, reflecting the consequences of his moral corruption.",
+        "cover_image": "/debby-hudson-asviIGR3CPE-unsplash.jpg"
+      },
+      {
+        "id": 102,
+        "title": "Frankenstein",
+        "author": "Mary Shelley",
+        "publication_year": 1818,
+        "genre": ["Science Fiction", "Horror"],
+        "description": "A scientist creates a creature who turns against his creator, exploring themes of ambition, isolation, and creation.",
+        "cover_image": "/debby-hudson-asviIGR3CPE-unsplash.jpg"
+      },
+      {
+        "id": 103,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "publication_year": 1925,
+        "genre": ["Fiction", "Classic"],
+        "description": "The story of the mysterious millionaire Jay Gatsby and his obsession with Daisy Buchanan, set in the Jazz Age.",
+        "cover_image": "/debby-hudson-asviIGR3CPE-unsplash.jpg"
+      },
+      {
+        "id": 104,
+        "title": "1984",
+        "author": "George Orwell",
+        "publication_year": 1949,
+        "genre": ["Dystopian", "Political Fiction"],
+        "description": "A man struggles to maintain his individuality and beliefs in a society controlled by an omnipresent government.",
+        "cover_image": "/debby-hudson-asviIGR3CPE-unsplash.jpg"
+      },
+      {
+        "id": 105,
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "publication_year": 1960,
+        "genre": ["Historical Fiction", "Drama"],
+        "description": "A young girl comes of age in the racially segregated American South while her father defends a black man wrongly accused of a crime.",
+        "cover_image": "/debby-hudson-asviIGR3CPE-unsplash.jpg"
+      },
+      {
+        "id": 106,
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "publication_year": 1813,
+        "genre": ["Romance", "Classic"],
+        "description": "The story of Elizabeth Bennet and her evolving relationship with the proud Mr. Darcy.",
+        "cover_image": "/debby-hudson-asviIGR3CPE-unsplash.jpg"
+      },
+      {
+        "id": 107,
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "publication_year": 1937,
+        "genre": ["Fantasy", "Adventure"],
+        "description": "A hobbit embarks on a journey to help a group of dwarves reclaim their homeland from a dragon.",
+        "cover_image": "/debby-hudson-asviIGR3CPE-unsplash.jpg"
+      },
+      {
+        "id": 108,
+        "title": "Brave New World",
+        "author": "Aldous Huxley",
+        "publication_year": 1932,
+        "genre": ["Dystopian", "Science Fiction"],
+        "description": "In a futuristic society, humans are conditioned to fit predefined roles and desires, questioning free will and happiness.",
+        "cover_image": "/debby-hudson-asviIGR3CPE-unsplash.jpg"
+      },
+      {
+        "id": 109,
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "publication_year": 1951,
+        "genre": ["Fiction", "Young Adult"],
+        "description": "A teenager recounts his experiences in New York City, grappling with alienation, identity, and the loss of innocence.",
+        "cover_image": "/debby-hudson-asviIGR3CPE-unsplash.jpg"
+      },
+      {
+        "id": 110,
+        "title": "Wuthering Heights",
+        "author": "Emily Brontë",
+        "publication_year": 1847,
+        "genre": ["Gothic", "Romance"],
+        "description": "The tumultuous love story of Heathcliff and Catherine, set on the remote Yorkshire moors.",
+        "cover_image": "/debby-hudson-asviIGR3CPE-unsplash.jpg"
+      },
+      {
+        "id": 111,
+        "title": "Moby-Dick",
+        "author": "Herman Melville",
+        "publication_year": 1851,
+        "genre": ["Adventure", "Classic"],
+        "description": "A sailor narrates the obsessive quest of Captain Ahab to kill the white whale Moby Dick.",
+        "cover_image": "/debby-hudson-asviIGR3CPE-unsplash.jpg"
+      },
+      {
+        "id": 112,
+        "title": "Les Misérables",
+        "author": "Victor Hugo",
+        "publication_year": 1862,
+        "genre": ["Historical Fiction", "Drama"],
+        "description": "The story of Jean Valjean, an ex-convict, and his struggles for redemption in post-revolutionary France.",
+        "cover_image": "/debby-hudson-asviIGR3CPE-unsplash.jpg"
+      },
+      {
+        "id": 113,
+        "title": "Crime and Punishment",
+        "author": "Fyodor Dostoevsky",
+        "publication_year": 1866,
+        "genre": ["Philosophical Fiction", "Psychological Fiction"],
+        "description": "A young man struggles with his conscience after committing murder, grappling with guilt and justification.",
+        "cover_image": "/debby-hudson-asviIGR3CPE-unsplash.jpg"
+      },
+      {
+        "id": 114,
+        "title": "Anna Karenina",
+        "author": "Leo Tolstoy",
+        "publication_year": 1877,
+        "genre": ["Historical Fiction", "Romance"],
+        "description": "The tragic story of Anna Karenina, whose affair with Count Vronsky leads to her downfall in Russian society.",
+        "cover_image": "/debby-hudson-asviIGR3CPE-unsplash.jpg"
+      },
+      {
+        "id": 115,
+        "title": "The Chronicles of Narnia",
+        "author": "C.S. Lewis",
+        "publication_year": 1950,
+        "genre": ["Fantasy", "Adventure"],
+        "description": "The series chronicles the adventures of children who stumble upon a magical world, Narnia, ruled by an evil queen and a lion king.",
+        "cover_image": "/debby-hudson-asviIGR3CPE-unsplash.jpg"
+      },
+      {
+        "id": 116,
+        "title": "The Divine Comedy",
+        "author": "Dante Alighieri",
+        "publication_year": 1320,
+        "genre": ["Epic Poetry", "Philosophical Fiction"],
+        "description": "A journey through Hell, Purgatory, and Heaven, symbolizing the soul’s quest for redemption.",
+        "cover_image": "/debby-hudson-asviIGR3CPE-unsplash.jpg"
+      },
+      {
+        "id": 117,
+        "title": "The Odyssey",
+        "author": "Homer",
+        "publication_year": "8th Century BC",
+        "genre": ["Epic", "Adventure"],
+        "description": "The epic journey of Odysseus as he strives to return home after the Trojan War, facing gods and monsters.",
+        "cover_image": "/debby-hudson-asviIGR3CPE-unsplash.jpg"
+      },
+      {
+        "id": 118,
+        "title": "Dracula",
+        "author": "Bram Stoker",
+        "publication_year": 1897,
+        "genre": ["Horror", "Gothic"],
+        "description": "The story of Count Dracula’s attempt to move from Transylvania to England so he can spread the undead curse.",
+        "cover_image": "/debby-hudson-asviIGR3CPE-unsplash.jpg"
+      },
+      {
+        "id": 119,
+        "title": "Heart of Darkness",
+        "author": "Joseph Conrad",
+        "publication_year": 1899,
+        "genre": ["Philosophical Fiction", "Adventure"],
+        "description": "A voyage up the Congo River into the Congo Free State in the heart of Africa, exploring colonialism and human nature.",
+        "cover_image": "/debby-hudson-asviIGR3CPE-unsplash.jpg"
+      },
+      {
+        "id": 120,
+        "title": "The Sun Also Rises",
+        "author": "Ernest Hemingway",
+        "publication_year": 1926,
+        "genre": ["Fiction", "Modernist"],
+        "description": "A group of expatriates in post-World War I Europe search for meaning and purpose in a world forever changed by war.",
+        "cover_image": "/eugene-chystiakov-wcMysLw5ROM-unsplash.jpg"},
+        {
+            "id": 121,
+            "title": "The Road",
+            "author": "Cormac McCarthy",
+            "publication_year": 2006,
+            "genre": ["Post-apocalyptic", "Fiction"],
+            "description": "A father and son travel through a desolate America, struggling to survive in a world devoid of life and civilization.",
+            "cover_image": "/girl-with-red-hat-mWI9FhbS43I-unsplash.jpg"
+          },
+          {
+            "id": 122,
+            "title": "Beloved",
+            "author": "Toni Morrison",
+            "publication_year": 1987,
+            "genre": ["Historical Fiction", "Psychological Fiction"],
+            "description": "A woman is haunted by the ghost of her deceased daughter, exploring themes of slavery, motherhood, and memory.",
+            "cover_image": "/girl-with-red-hat-mWI9FhbS43I-unsplash.jpg"
+          },
+          {
+            "id": 123,
+            "title": "The Alchemist",
+            "author": "Paulo Coelho",
+            "publication_year": 1988,
+            "genre": ["Fiction", "Philosophical"],
+            "description": "A young shepherd named Santiago travels across the desert to find treasure, discovering life lessons along the way.",
+            "cover_image": "/girl-with-red-hat-mWI9FhbS43I-unsplash.jpg"
+          },
+          {
+            "id": 124,
+            "title": "The Kite Runner",
+            "author": "Khaled Hosseini",
+            "publication_year": 2003,
+            "genre": ["Historical Fiction", "Drama"],
+            "description": "A tale of friendship, betrayal, and redemption, following the journey of a young boy in Afghanistan during turbulent times.",
+            "cover_image": "/girl-with-red-hat-mWI9FhbS43I-unsplash.jpg"
+          },
+          {
+            "id": 125,
+            "title": "The Girl with the Dragon Tattoo",
+            "author": "Stieg Larsson",
+            "publication_year": 2005,
+            "genre": ["Mystery", "Thriller"],
+            "description": "A journalist and a hacker team up to solve a decades-old mystery involving a missing girl and a corrupt family.",
+            "cover_image": "/girl-with-red-hat-mWI9FhbS43I-unsplash.jpg"
+          },
+          {
+            "id": 126,
+            "title": "The Hunger Games",
+            "author": "Suzanne Collins",
+            "publication_year": 2008,
+            "genre": ["Dystopian", "Science Fiction"],
+            "description": "In a future society, children are forced to fight in a televised death match, and one girl rises up against the system.",
+            "cover_image": "/girl-with-red-hat-mWI9FhbS43I-unsplash.jpg"
+          },
+          {
+            "id": 127,
+            "title": "The Outsiders",
+            "author": "S.E. Hinton",
+            "publication_year": 1967,
+            "genre": ["Young Adult", "Fiction"],
+            "description": "A story about the struggles of the Greasers, a group of working-class teenagers, against the wealthier Socs.",
+            "cover_image": "/girl-with-red-hat-mWI9FhbS43I-unsplash.jpg"
+          },
+          {
+            "id": 128,
+            "title": "The Handmaid's Tale",
+            "author": "Margaret Atwood",
+            "publication_year": 1985,
+            "genre": ["Dystopian", "Science Fiction"],
+            "description": "In a totalitarian society, women are subjugated and used for reproduction in this chilling, feminist dystopian tale.",
+            "cover_image": "/girl-with-red-hat-mWI9FhbS43I-unsplash.jpg"
+          },
+          {
+            "id": 129,
+            "title": "The Martian",
+            "author": "Andy Weir",
+            "publication_year": 2011,
+            "genre": ["Science Fiction", "Thriller"],
+            "description": "A stranded astronaut on Mars must use his ingenuity to survive while awaiting rescue in this gripping survival story.",
+            "cover_image": "/girl-with-red-hat-mWI9FhbS43I-unsplash.jpg"
+          },
+          {
+            "id": 130,
+            "title": "The Secret Garden",
+            "author": "Frances Hodgson Burnett",
+            "publication_year": 1911,
+            "genre": ["Children's Fiction", "Fantasy"],
+            "description": "A lonely girl discovers a hidden, magical garden that changes her life and the lives of those around her.",
+            "cover_image": "/girl-with-red-hat-mWI9FhbS43I-unsplash.jpg"
+          },
+          {
+            "id": 131,
+            "title": "The Fault in Our Stars",
+            "author": "John Green",
+            "publication_year": 2012,
+            "genre": ["Romance", "Young Adult"],
+            "description": "Two teenagers with cancer fall in love, facing the challenges of their illness and the inevitability of death.",
+            "cover_image": "/girl-with-red-hat-mWI9FhbS43I-unsplash.jpg"
+          },
+          {
+            "id": 132,
+            "title": "The Chronicles of the Black Company",
+            "author": "Glen Cook",
+            "publication_year": 1984,
+            "genre": ["Fantasy", "Adventure"],
+            "description": "A mercenary group navigates through the chaos of a world of magic, war, and betrayal.",
+            "cover_image": "/girl-with-red-hat-mWI9FhbS43I-unsplash.jpg"
+          },
+          {
+            "id": 133,
+            "title": "The Shining",
+            "author": "Stephen King",
+            "publication_year": 1977,
+            "genre": ["Horror", "Psychological Thriller"],
+            "description": "A man takes a job as the winter caretaker of an isolated hotel, where he begins to lose his sanity due to supernatural forces.",
+            "cover_image": "/girl-with-red-hat-mWI9FhbS43I-unsplash.jpg"
+          },
+          {
+            "id": 134,
+            "title": "The Silence of the Lambs",
+            "author": "Thomas Harris",
+            "publication_year": 1988,
+            "genre": ["Thriller", "Crime"],
+            "description": "A young FBI agent seeks the help of an imprisoned cannibalistic serial killer to catch another killer on the loose.",
+            "cover_image": "/girl-with-red-hat-mWI9FhbS43I-unsplash.jpg"
+          },
+          {
+            "id": 135,
+            "title": "The Book Thief",
+            "author": "Markus Zusak",
+            "publication_year": 2005,
+            "genre": ["Historical Fiction", "Young Adult"],
+            "description": "A young girl steals books during World War II in Nazi Germany, finding solace and meaning in the power of words.",
+            "cover_image": "/girl-with-red-hat-mWI9FhbS43I-unsplash.jpg"
+          },
+          {
+            "id": 136,
+            "title": "The Girl on the Train",
+            "author": "Paula Hawkins",
+            "publication_year": 2015,
+            "genre": ["Thriller", "Psychological Fiction"],
+            "description": "A woman becomes entangled in the mystery of a missing person, uncovering dark secrets about herself and others.",
+            "cover_image": "/girl-with-red-hat-mWI9FhbS43I-unsplash.jpg"
+          },
+          {
+            "id": 137,
+            "title": "Circe",
+            "author": "Madeline Miller",
+            "publication_year": 2018,
+            "genre": ["Fantasy", "Mythology"],
+            "description": "A retelling of the Greek myth of Circe, the witch who transforms Odysseus' men into swine, focusing on her life and experiences.",
+            "cover_image": "/girl-with-red-hat-mWI9FhbS43I-unsplash.jpg"
+          },
+          {
+            "id": 138,
+            "title": "Little Fires Everywhere",
+            "author": "Celeste Ng",
+            "publication_year": 2017,
+            "genre": ["Fiction", "Drama"],
+            "description": "The lives of two families are intertwined in a suburban community, as secrets, privilege, and race lead to devastating consequences.",
+            "cover_image": "/girl-with-red-hat-mWI9FhbS43I-unsplash.jpg"
+          },
+          {
+            "id": 139,
+            "title": "The Giver",
+            "author": "Lois Lowry",
+            "publication_year": 1993,
+            "genre": ["Dystopian", "Young Adult"],
+            "description": "A boy is selected to be the Receiver of Memory in a society that eliminates pain and memories, discovering the truth about his world.",
+            "cover_image": "/girl-with-red-hat-mWI9FhbS43I-unsplash.jpg"
+          },
+          {
+            "id": 140,
+            "title": "The Maze Runner",
+            "author": "James Dashner",
+            "publication_year": 2009,
+            "genre": ["Dystopian", "Science Fiction"],
+            "description": "A group of teenagers wakes up in a maze with no memory of how they got there, forced to", 
+            "cover_image": "/kelly-sikkema-7hspi6m0yO4-unsplash.jpg"
+          }   
+  ]
+  

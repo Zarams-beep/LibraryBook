@@ -1,0 +1,97 @@
+main{
+    @apply relative top-[-4rem] left-0 right-0 h-[40rem] pb-0 mb-[-12rem];
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .divArrows{
+    @apply absolute flex items-center justify-between top-[20rem] left-0 right-0 text-[3rem] text-[#f5deb3];
+  }
+  /* .divArrows2{
+    left: 18rem;
+    right: 3rem;
+  } */
+  .iconsArrow{
+    @apply hover:cursor-pointer;
+    transition: cursor .3s ease-in-out;
+    
+  }
+  
+  /* @media all and (max-width:600px) {
+    .divArrows2{
+      left: 12rem;
+    }
+  }
+  
+  @media all and (max-width:500px) {
+    .divArrows2{
+      left: 1rem;
+    }
+  } */
+  
+  .notes{
+    @apply text-[#f5deb3] absolute top-[10rem] left-[4rem] sm2:left-[5rem] md3:left-[10rem] mt-8 pb-8;
+  }
+  .notes h4{
+    @apply text-[1.5rem] sm2:text-[2rem] w-full;
+  }
+  .notes h1{
+    @apply text-[2.5rem] 1sm:text-[3.5rem] sm2:text-[4rem] w-[20%] mb-0;
+  }
+  .notes p{
+    @apply w-[60%] text-justify;
+  }
+  
+  .section2{
+    @apply bg-[#3e2723] md:mt-8 pt-0 flex md:flex-nowrap flex-wrap items-center gap-2 justify-between mt-[4rem] relative z-[100];
+  }
+  .section2 .btnSection{
+    @apply text-[#3e2723] py-2 w-full bg-[#f5deb3] rounded-[1rem] text-[12px] mdd:text-[16px] text-center hover:cursor-pointer hover:bg-[#fce2b1];
+    transition: cursor .3s ease-in-out, background-color .3s ease-in-out, color .3s ease-in-out;
+  }
+  .secondPart{
+    @apply bg-[#3e2723] text-[#f5deb3] h-auto flex items-center smm:flex-row flex-col justify-center relative z-[100] mt-0 md:mt-2;
+    }
+  .secondPart input,button{
+    @apply w-full smm:w-[28%] h-[3rem] pl-4 bg-[#f5deb3] font-[1000] text-[#3e2723] placeholder:text-[#3e2723] outline-none;
+  }
+  .secondPart button{
+    @apply bg-[#3e2723] text-[#f5deb3];
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .thirdPart{
+    @apply relative px-5 top-[5rem];
+  }
+  .linkStyle{
+    @apply text-[#f5deb3];
+    text-decoration: none;
+  }
+  .imgContainer{
+    @apply grid list-none gap-8 ml-0 pl-4;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  }
+  @media all and (max-width:350px) {
+    .imgContainer{
+      grid-template-columns: 1fr;
+    }
+  }
+  .imgContainer .library-book{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  .imgContainer .image{
+    @apply w-full h-[20rem] object-cover;
+  }
+  .imgContainer .box{
+    @apply bg-[#3e2723] text-center pt-3;
+  }
+  .rating{
+    @apply flex items-center justify-center gap-[.5rem] py-5;
+  }
+  .rating1{
+    border-right: 1px solid #f5deb3;
+    padding-right: .5rem;
+  }
+  .genreItem {
+    margin-right: 8px;
+  }

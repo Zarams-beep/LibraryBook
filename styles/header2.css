@@ -1,0 +1,34 @@
+/* header 2 part */
+.header2,.header3{
+    @apply fixed top-0 bg-[#3e2723] text-[#f5deb3] flex items-center ml-[15rem] pl-8  pt-[.5rem] pb-4 w-full z-[100];
+    animation: moveLeft 3s forwards;
+  }
+  
+  .header3{
+    @apply ml-0;
+  }
+  .searchHeader{
+    @apply flex items-center justify-between pr-8 lggg:w-[70%] w-[55%] mdd:w-[65%];
+  }
+  .sectionNotes{
+    @apply flex items-center gap-[1.2rem]
+  }
+  .searchHeader button{
+    @apply w-full mdd:w-[90%] flex items-center text-[1.5rem] border-none rounded-[2rem];
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .searchHeader button input{
+    @apply w-full border-none outline-none bg-transparent;
+  }
+  .profileContainer{
+    @apply w-[2rem] grid mdd:flex items-center gap-0 mdd:gap-[.5rem] font-[1000];
+    grid-template-columns: 1fr;
+  }
+  .profileContainer img{
+    @apply w-[80%] h-[80%] rounded-[50%] object-cover;
+  }
+  .header2{
+    @apply mdd:ml-[14rem]
+  }
+  

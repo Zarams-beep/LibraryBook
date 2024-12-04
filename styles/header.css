@@ -1,0 +1,125 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  :root{
+    @apply m-0 h-full p-0 w-full overflow-x-hidden;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  body{
+    @apply m-0 p-0 bg-[#f5deb3];
+  }
+  .header1{
+    @apply px-0 md:px-[2rem] mdd:px-[6rem] flex items-center justify-between relative top-[4rem] z-[200];
+    animation: moveLeft 3s forwards;
+  }
+  @keyframes moveLeft {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  .firstHeader{
+    @apply flex w-full border-none;
+    box-shadow: 0px 2px 2px rgba(131, 122, 122, 0.5);
+  }
+  .forLogo{
+    @apply grid gap-0 text-[#f5deb3] p-4;
+    grid-template-columns: 1fr;
+  }
+  .logoLink{
+    @apply bg-[#3e2723] w-[40%];
+  }
+  .smallHeaderLogo{
+    @apply flex items-center mb-0 pb-0 text-[1rem] lgg:text-[1.3rem];
+  }
+  .smallHeaderLogo2{
+    @apply mt-[-1rem] ml-2 lgg:ml-[2rem] pt-0 lgg:text-[16px] text-[.8rem];
+  }
+  .smallHeaderLogo .transformP{
+    transform: rotate(270deg);
+  }
+  .smallHeaderLogo h2{
+    @apply ml-[-.7rem] text-[2.2rem] lgg:text-[2.5rem];
+  }
+  .headerSide{
+    @apply grid w-full;
+    grid-template-columns: 1fr;
+  }
+  .invisble{
+    display: none;
+  }
+  .part1,.part2{
+    @apply pl-1 flex items-center pr-4 justify-between;
+  }
+  .part1{
+    @apply mb-0 mdd:mb-[-1rem] text-[1.2rem] bg-[#f5deb3] mdd:bg-[#3e2723] pl-4 mdd:pl-0 
+    text-[#3e2723] mdd:text-[#f5deb3];
+  }
+  .linkStyle{
+    @apply text-[#f5deb3];
+    text-decoration: none;
+  }
+  .part1 nav ul,.part2 nav ul{
+    @apply flex list-none items-center justify-between;
+  }
+  .part1 nav ul li, .part2 nav ul li{
+    @apply hover:text-[#584541de]
+  }
+  .part1 nav ul{
+    @apply gap-4 text-[1.2rem];
+  }
+  .part2{
+    @apply bg-[#f5deb3] ;
+  }
+  @media all and (max-width:930px) {
+    .part2{
+        display: none;
+    }
+  }
+  .linkStyle2{
+    color: #3e2723;
+    text-decoration: none;
+  }
+  .part2 nav ul{
+    @apply gap-[1.2rem] lgg:gap-8 text-[1rem] lgg:text-[1.2rem];
+  }
+  .divMenu,.socials .socialsIcon{
+    @apply text-[3rem] hover:cursor-pointer;
+    transition: cursor 3s forwards;
+  }
+  .navSmall{
+    @apply absolute top-[3rem] md:top-[5.5rem] bg-[#3e2723] text-[#f5deb3] md2:left-8 left-0 md2:right-8 right-0 px-4 py-3;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .navSmall .linkStyle2{
+    @apply text-[#f5deb3];
+  }
+  .navSmall nav ul li{
+    @apply text-[.5rem] sm:text-[.7rem] md:text-[1rem];
+  }
+  .socials{
+    @apply flex items-center;
+  }
+  
+  .socialNav{
+    @apply absolute top-[3rem];
+  }
+  .socialNav ul{
+    @apply fixed top-[5rem] md:top-[8rem] right-[.5px] p-[.5rem] text-[1.2rem]
+    bg-[#3e2723]; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  .socialNav .linkStyle{
+    @apply text-[#f5deb3]
+  }
+
+
+  @media all and (max-width:630px){
+    .part1 nav ul{
+      padding-left: .5rem;
+    }
+  }
+  
