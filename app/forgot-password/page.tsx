@@ -9,7 +9,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { ForgotFormData, forgotSchema } from "@/features/auth/password";
 import { useRouter } from "next/navigation";
 
-export default function SignUp1() {
+export default function ForgotPassword() {
   const router = useRouter();
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
