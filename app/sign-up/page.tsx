@@ -179,7 +179,7 @@ export default function SignUp1() {
 
             <Typography sx={{ paddingTop: "1rem", paddingBottom: "2rem" }}>
               Already have an account?{" "}
-              <a href="/sign-in" className="linkClick1">
+              <a href="/login" className="linkClick1">
                 <span className="sign">Sign in</span>
               </a>
             </Typography>

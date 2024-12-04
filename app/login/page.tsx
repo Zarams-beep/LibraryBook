@@ -110,13 +110,13 @@ export default function SignUp1() {
 
             <Typography sx={{ paddingTop: "1rem", paddingBottom: "2rem" }}>
             Dont have an account?{" "}
-              <a href="/sign-in" className="linkClick1">
+              <a href="/sign-up" className="linkClick1">
                 <span className="sign">Sign Up</span>
               </a>
             </Typography>
 
             <Typography>
-              <a href="/forgot password" className="sign">
+              <a href="/forgot-password" className="sign">
               Forgot Password
               </a>
             </Typography>

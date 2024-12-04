@@ -12,7 +12,7 @@ interface Book {
   title: string;
   author: string;
   publication_year: number | string;
-  genre: string[]; // Assuming genres is an array of strings
+  genre: string[]; 
   cover_image: string;
 }
 
@@ -63,8 +63,8 @@ export default function HomePage() {
   };
 
   const handleReset = () => {
-    setSearchCategory(""); // Reset the search category
-    setSearchInput("");    // Clear the search input
+    setSearchCategory(""); 
+    setSearchInput(""); 
     setFilteredBooks(books);
   };
 

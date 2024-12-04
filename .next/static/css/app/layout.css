@@ -1,0 +1,1342 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./app/globals.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+/*
+! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
+*//*
+1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+*/
+
+*,
+::before,
+::after {
+  box-sizing: border-box; /* 1 */
+  border-width: 0; /* 2 */
+  border-style: solid; /* 2 */
+  border-color: #e5e7eb; /* 2 */
+}
+
+::before,
+::after {
+  --tw-content: '';
+}
+
+/*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size.
+4. Use the user's configured `sans` font-family by default.
+5. Use the user's configured `sans` font-feature-settings by default.
+6. Use the user's configured `sans` font-variation-settings by default.
+*/
+
+html {
+  line-height: 1.5; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -moz-tab-size: 4; /* 3 */
+  -o-tab-size: 4;
+     tab-size: 4; /* 3 */
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 4 */
+  font-feature-settings: normal; /* 5 */
+  font-variation-settings: normal; /* 6 */
+}
+
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/
+
+body {
+  margin: 0; /* 1 */
+  line-height: inherit; /* 2 */
+}
+
+/*
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+3. Ensure horizontal rules are visible by default.
+*/
+
+hr {
+  height: 0; /* 1 */
+  color: inherit; /* 2 */
+  border-top-width: 1px; /* 3 */
+}
+
+/*
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+
+abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+/*
+Remove the default font size and weight for headings.
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*
+Reset links to optimize for opt-in styling instead of opt-out.
+*/
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/*
+Add the correct font weight in Edge and Safari.
+*/
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/*
+1. Use the user's configured `mono` font family by default.
+2. Correct the odd `em` font sizing in all browsers.
+*/
+
+code,
+kbd,
+samp,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/*
+Add the correct font size in all browsers.
+*/
+
+small {
+  font-size: 80%;
+}
+
+/*
+Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+*/
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/*
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+3. Remove gaps between table borders by default.
+*/
+
+table {
+  text-indent: 0; /* 1 */
+  border-color: inherit; /* 2 */
+  border-collapse: collapse; /* 3 */
+}
+
+/*
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+3. Remove default padding in all browsers.
+*/
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-feature-settings: inherit; /* 1 */
+  font-variation-settings: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  font-weight: inherit; /* 1 */
+  line-height: inherit; /* 1 */
+  color: inherit; /* 1 */
+  margin: 0; /* 2 */
+  padding: 0; /* 3 */
+}
+
+/*
+Remove the inheritance of text transform in Edge and Firefox.
+*/
+
+button,
+select {
+  text-transform: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Remove default button styles.
+*/
+
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+  -webkit-appearance: button; /* 1 */
+  background-color: transparent; /* 2 */
+  background-image: none; /* 2 */
+}
+
+/*
+Use the modern Firefox focus style for all focusable elements.
+*/
+
+:-moz-focusring {
+  outline: auto;
+}
+
+/*
+Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+*/
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/*
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+
+progress {
+  vertical-align: baseline;
+}
+
+/*
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/*
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+
+[type='search'] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/*
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to `inherit` in Safari.
+*/
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/*
+Add the correct display in Chrome and Safari.
+*/
+
+summary {
+  display: list-item;
+}
+
+/*
+Removes the default spacing and border for appropriate elements.
+*/
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Reset default styling for dialogs.
+*/
+dialog {
+  padding: 0;
+}
+
+/*
+Prevent resizing textareas horizontally by default.
+*/
+
+textarea {
+  resize: vertical;
+}
+
+/*
+1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
+2. Set the default placeholder color to the user's configured gray 400 color.
+*/
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+/*
+Set the default cursor for buttons.
+*/
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+/*
+Make sure disabled buttons don't get the pointer cursor.
+*/
+:disabled {
+  cursor: default;
+}
+
+/*
+1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
+2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
+   This can trigger a poorly considered lint error in some tools but is included by design.
+*/
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block; /* 1 */
+  vertical-align: middle; /* 2 */
+}
+
+/*
+Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+*/
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Make elements with the HTML hidden attribute stay hidden by default */
+[hidden] {
+  display: none;
+}
+
+*, ::before, ::after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+}
+
+::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+}
+.flex {
+  display: flex;
+}
+.items-center {
+  align-items: center;
+}
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+:root {
+    --primary: #002F49;
+    --secondary: #4b8bbe;
+    --success: #08c074;
+    --danger: #f65252;
+    --warning: #ff7d00;
+    --accent: #D54E21;
+    --primary-text-color: #041822;
+    --secondary-text-color: #F8FBFD;
+    --border: #E2E9F6;
+    --grey: #59676e;
+    --background: #DDE4F2;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    /* height: 100vh; */
+}
+
+/* Target autofilled input fields */
+input:-webkit-autofill { /* Change 'white' to your desired background color */
+  box-shadow: 0 0 0px 1000px white inset;
+  -webkit-text-fill-color: inherit; /* Ensures the text color remains consistent */
+}
+
+input:-webkit-autofill::first-line {
+  font-family: inherit; /* Ensures autofilled text uses the same font */
+}
+
+input[type="checkbox"]:checked {
+    background-color: blue; /* Set background color when checked */
+    border: 1px solid blue; /* Adjust border when checked */
+  }
+
+.hover\:cursor-pointer:hover {
+  cursor: pointer;
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./styles/header.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  :root {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+  body {
+    margin: 0px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(245 222 179 / var(--tw-bg-opacity));
+    padding: 0px;
+}
+  .header1 {
+    position: relative;
+    top: 4rem;
+    z-index: 200;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+  @media (min-width: 630px) {
+    .header1 {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+  @media (min-width: 930px) {
+    .header1 {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+}
+  .header1{
+    animation: moveLeft 3s forwards;
+  }
+  @keyframes moveLeft {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  .firstHeader {
+    display: flex;
+    width: 100%;
+    border-style: none;
+    box-shadow: 0px 2px 2px rgba(131, 122, 122, 0.5);
+}
+  .forLogo {
+    display: grid;
+    gap: 0px;
+    padding: 1rem;
+    --tw-text-opacity: 1;
+    color: rgb(245 222 179 / var(--tw-text-opacity));
+    grid-template-columns: 1fr;
+}
+  .logoLink {
+    width: 40%;
+    --tw-bg-opacity: 1;
+    background-color: rgb(62 39 35 / var(--tw-bg-opacity));
+}
+  .smallHeaderLogo {
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 0px;
+    font-size: 1rem;
+}
+  @media (min-width: 1130px) {
+    .smallHeaderLogo {
+        font-size: 1.3rem;
+    }
+}
+  .smallHeaderLogo2 {
+    margin-top: -1rem;
+    margin-left: 0.5rem;
+    padding-top: 0px;
+    font-size: .8rem;
+}
+  @media (min-width: 1130px) {
+    .smallHeaderLogo2 {
+        margin-left: 2rem;
+        font-size: 16px;
+    }
+}
+  .smallHeaderLogo .transformP{
+    transform: rotate(270deg);
+  }
+  .smallHeaderLogo h2 {
+    margin-left: -.7rem;
+    font-size: 2.2rem;
+}
+  @media (min-width: 1130px) {
+    .smallHeaderLogo h2 {
+        font-size: 2.5rem;
+    }
+}
+  .headerSide {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr;
+}
+  .invisble{
+    display: none;
+  }
+  .part1,.part2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 0.25rem;
+    padding-right: 1rem;
+}
+  .part1 {
+    margin-bottom: 0px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(245 222 179 / var(--tw-bg-opacity));
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    --tw-text-opacity: 1;
+    color: rgb(62 39 35 / var(--tw-text-opacity));
+}
+  @media (min-width: 930px) {
+    .part1 {
+        margin-bottom: -1rem;
+        --tw-bg-opacity: 1;
+        background-color: rgb(62 39 35 / var(--tw-bg-opacity));
+        padding-left: 0px;
+        --tw-text-opacity: 1;
+        color: rgb(245 222 179 / var(--tw-text-opacity));
+    }
+}
+  .linkStyle {
+    --tw-text-opacity: 1;
+    color: rgb(245 222 179 / var(--tw-text-opacity));
+    text-decoration: none;
+}
+  .part1 nav ul,.part2 nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+}
+  .part1 nav ul li:hover, .part2 nav ul li:hover {
+    color: #584541de;
+}
+  .part1 nav ul {
+    gap: 1rem;
+    font-size: 1.2rem;
+}
+  .part2 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(245 222 179 / var(--tw-bg-opacity));
+}
+  @media all and (max-width:930px) {
+    .part2{
+        display: none;
+    }
+  }
+  .linkStyle2{
+    color: #3e2723;
+    text-decoration: none;
+  }
+  .part2 nav ul {
+    gap: 1.2rem;
+    font-size: 1rem;
+}
+  @media (min-width: 1130px) {
+    .part2 nav ul {
+        gap: 2rem;
+        font-size: 1.2rem;
+    }
+}
+  .divMenu,.socials .socialsIcon {
+    font-size: 3rem;
+}
+  .divMenu:hover,.socials .socialsIcon:hover {
+    cursor: pointer;
+}
+  .divMenu,.socials .socialsIcon{
+    transition: cursor 3s forwards;
+  }
+  .navSmall {
+    position: absolute;
+    top: 3rem;
+    left: 0px;
+    right: 0px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(62 39 35 / var(--tw-bg-opacity));
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    --tw-text-opacity: 1;
+    color: rgb(245 222 179 / var(--tw-text-opacity));
+}
+  @media (min-width: 630px) {
+    .navSmall {
+        top: 5.5rem;
+    }
+}
+  @media (min-width: 690px) {
+    .navSmall {
+        left: 2rem;
+        right: 2rem;
+    }
+}
+  .navSmall{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .navSmall .linkStyle2 {
+    --tw-text-opacity: 1;
+    color: rgb(245 222 179 / var(--tw-text-opacity));
+}
+  .navSmall nav ul li {
+    font-size: .5rem;
+}
+  @media (min-width: 500px) {
+    .navSmall nav ul li {
+        font-size: .7rem;
+    }
+}
+  @media (min-width: 630px) {
+    .navSmall nav ul li {
+        font-size: 1rem;
+    }
+}
+  .socials {
+    display: flex;
+    align-items: center;
+}
+  
+  .socialNav {
+    position: absolute;
+    top: 3rem;
+}
+  .socialNav ul {
+    position: fixed;
+    top: 5rem;
+    right: .5px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(62 39 35 / var(--tw-bg-opacity));
+    padding: .5rem;
+    font-size: 1.2rem;
+}
+  @media (min-width: 630px) {
+    .socialNav ul {
+        top: 8rem;
+    }
+}
+  .socialNav ul{ 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  .socialNav .linkStyle {
+    --tw-text-opacity: 1;
+    color: rgb(245 222 179 / var(--tw-text-opacity));
+}
+
+
+  @media all and (max-width:630px){
+    .part1 nav ul{
+      padding-left: .5rem;
+    }
+  }
+  
+/*!****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./styles/header2.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************/
+/* header 2 part */
+.header2,.header3{
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+    margin-left: 15rem;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    --tw-bg-opacity: 1;
+    background-color: rgb(62 39 35 / var(--tw-bg-opacity));
+    padding-left: 2rem;
+    padding-top: .5rem;
+    padding-bottom: 1rem;
+    --tw-text-opacity: 1;
+    color: rgb(245 222 179 / var(--tw-text-opacity));
+    animation: moveLeft 3s forwards;
+}
+  
+  .header3{
+    margin-left: 0px;
+}
+  .searchHeader{
+    display: flex;
+    width: 55%;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 2rem;
+}
+  @media (min-width: 930px){
+    .searchHeader{
+        width: 65%;
+    }
+}
+  @media (min-width: 1200px){
+    .searchHeader{
+        width: 70%;
+    }
+}
+  .sectionNotes{
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+  .searchHeader button{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    border-radius: 2rem;
+    border-style: none;
+    font-size: 1.5rem;
+}
+  @media (min-width: 930px){
+    .searchHeader button{
+        width: 90%;
+    }
+}
+  .searchHeader button{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .searchHeader button input{
+    width: 100%;
+    border-style: none;
+    background-color: transparent;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+  .profileContainer{
+    display: grid;
+    width: 2rem;
+    align-items: center;
+    gap: 0px;
+    font-weight: 1000;
+}
+  @media (min-width: 930px){
+    .profileContainer{
+        display: flex;
+        gap: .5rem;
+    }
+}
+  .profileContainer{
+    grid-template-columns: 1fr;
+  }
+  .profileContainer img{
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+  @media (min-width: 930px){
+    .header2{
+        margin-left: 14rem;
+    }
+}
+  
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./styles/homepage.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+main{
+    position: relative;
+    top: -4rem;
+    left: 0px;
+    right: 0px;
+    margin-bottom: -12rem;
+    height: 40rem;
+    padding-bottom: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+  .divArrows{
+    position: absolute;
+    top: 20rem;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 3rem;
+    --tw-text-opacity: 1;
+    color: rgb(245 222 179 / var(--tw-text-opacity));
+    
+}
+  /* .divArrows2{
+    left: 18rem;
+    right: 3rem;
+  } */
+  .iconsArrow:hover{
+    cursor: pointer;
+    
+}
+  .iconsArrow{
+    transition: cursor .3s ease-in-out;
+    
+  }
+  
+  /* @media all and (max-width:600px) {
+    .divArrows2{
+      left: 12rem;
+    }
+  }
+  
+  @media all and (max-width:500px) {
+    .divArrows2{
+      left: 1rem;
+    }
+  } */
+  
+  .notes{
+    position: absolute;
+    top: 10rem;
+    left: 4rem;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    --tw-text-opacity: 1;
+    color: rgb(245 222 179 / var(--tw-text-opacity));
+    
+}
+  
+  @media (min-width: 430px){
+    .notes{
+        left: 5rem;
+    
+    }
+    
+}
+  
+  @media (min-width: 700px){
+    .notes{
+        left: 10rem;
+    
+    }
+    
+}
+  .notes h4{
+    width: 100%;
+    font-size: 1.5rem;
+    
+}
+  @media (min-width: 430px){
+    .notes h4{
+        font-size: 2rem;
+    
+    }
+    
+}
+  .notes h1{
+    margin-bottom: 0px;
+    width: 20%;
+    font-size: 2.5rem;
+    
+}
+  @media (min-width: 370px){
+    .notes h1{
+        font-size: 3.5rem;
+    
+    }
+    
+}
+  @media (min-width: 430px){
+    .notes h1{
+        font-size: 4rem;
+    
+    }
+    
+}
+  .notes p{
+    width: 60%;
+    text-align: justify;
+    
+}
+  
+  .section2{
+    position: relative;
+    z-index: 100;
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(62 39 35 / var(--tw-bg-opacity));
+    padding-top: 0px;
+    
+}
+  
+  @media (min-width: 630px){
+    .section2{
+        margin-top: 2rem;
+        flex-wrap: nowrap;
+    
+    }
+    
+}
+  .section2 .btnSection{
+    width: 100%;
+    border-radius: 1rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(245 222 179 / var(--tw-bg-opacity));
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    font-size: 12px;
+    --tw-text-opacity: 1;
+    color: rgb(62 39 35 / var(--tw-text-opacity));
+    
+}
+  .section2 .btnSection:hover{
+    cursor: pointer;
+    --tw-bg-opacity: 1;
+    background-color: rgb(252 226 177 / var(--tw-bg-opacity));
+    
+}
+  @media (min-width: 930px){
+    .section2 .btnSection{
+        font-size: 16px;
+    
+    }
+    
+}
+  .section2 .btnSection{
+    transition: cursor .3s ease-in-out, background-color .3s ease-in-out, color .3s ease-in-out;
+  }
+  .secondPart{
+    position: relative;
+    z-index: 100;
+    margin-top: 0px;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    --tw-bg-opacity: 1;
+    background-color: rgb(62 39 35 / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgb(245 222 179 / var(--tw-text-opacity));
+    
+}
+  @media (min-width: 550px){
+    .secondPart{
+        flex-direction: row;
+    
+    }
+    
+}
+  @media (min-width: 630px){
+    .secondPart{
+        margin-top: 0.5rem;
+    
+    }
+    
+}
+  .secondPart input,button{
+    height: 3rem;
+    width: 100%;
+    --tw-bg-opacity: 1;
+    background-color: rgb(245 222 179 / var(--tw-bg-opacity));
+    padding-left: 1rem;
+    font-weight: 1000;
+    --tw-text-opacity: 1;
+    color: rgb(62 39 35 / var(--tw-text-opacity));
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    
+}
+  .secondPart input::-moz-placeholder, button::-moz-placeholder{
+    --tw-text-opacity: 1;
+    color: rgb(62 39 35 / var(--tw-text-opacity));
+    
+}
+  .secondPart input::placeholder,button::placeholder{
+    --tw-text-opacity: 1;
+    color: rgb(62 39 35 / var(--tw-text-opacity));
+    
+}
+  @media (min-width: 550px){
+    .secondPart input,button{
+        width: 28%;
+    
+    }
+    
+}
+  .secondPart button{
+    --tw-bg-opacity: 1;
+    background-color: rgb(62 39 35 / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgb(245 222 179 / var(--tw-text-opacity));
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    
+}
+
+  .thirdPart{
+    position: relative;
+    top: 5rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    
+}
+  .linkStyle{
+    --tw-text-opacity: 1;
+    color: rgb(245 222 179 / var(--tw-text-opacity));
+    text-decoration: none;
+    
+}
+  .imgContainer{
+    margin-left: 0px;
+    display: grid;
+    list-style-type: none;
+    gap: 2rem;
+    padding-left: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    
+}
+  @media all and (max-width:350px) {
+    .imgContainer{
+      grid-template-columns: 1fr;
+    }
+  }
+  .imgContainer .library-book{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  .imgContainer .image{
+    height: 20rem;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    
+}
+  .imgContainer .box{
+    --tw-bg-opacity: 1;
+    background-color: rgb(62 39 35 / var(--tw-bg-opacity));
+    padding-top: 0.75rem;
+    text-align: center;
+    
+}
+  .rating{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    
+}
+  .rating1{
+    border-right: 1px solid #f5deb3;
+    padding-right: .5rem;
+  }
+  .genreItem {
+    margin-right: 8px;
+  }
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./styles/auth.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+.SignUpPage1{
+    display: flex;
+    height: 58rem;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+ .loginPage{
+    height: 45rem;
+}
+  .forPage{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    padding-top: 3rem;
+}
+  .signUp1{
+    display: none;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    --tw-bg-opacity: 1;
+    background-color: rgb(62 39 35 / var(--tw-bg-opacity));
+    font-size: 6rem;
+    --tw-text-opacity: 1;
+    color: rgb(245 222 179 / var(--tw-text-opacity));
+}
+  @media (min-width: 930px){
+    .signUp1{
+        display: flex;
+    }
+}
+  .signUp1{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  .signUp1 h5{
+    text-align: center;
+    font-size: 2rem;
+}
+  .signUp1 .tbBook{
+    font-size: 3.5rem;
+}
+  .signUp2{
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+  .login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+  
+  .signUp2 form ul{
+    margin-bottom: 1rem;
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+  .headerSignUp{
+    text-align: center;
+}
+  .divFlex{
+    display: flex;
+    align-items: center;
+    border-radius: .3rem;
+    border: 1px solid rgb(143, 142, 142);
+    transition: border-color 0.3s;
+}
+  .divFlex:focus-within {
+    border: 2px solid blue;
+  }
+  .divFlex input{
+    background-color: transparent;
+    --tw-text-opacity: 1;
+    color: rgb(62 39 35 / var(--tw-text-opacity));
+}
+  .divFlex input::-moz-placeholder{
+    --tw-text-opacity: 1;
+    color: rgb(62 39 35 / var(--tw-text-opacity));
+}
+  .divFlex input::placeholder{
+    --tw-text-opacity: 1;
+    color: rgb(62 39 35 / var(--tw-text-opacity));
+}
+  .passStyle .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+    border: none;
+  }
+  .eyeIcon{
+    cursor: pointer;
+    padding-right: 1rem;
+    opacity: 0.4;
+}
+  /* .my-custom-confirm-button {
+    width: 100% !important; 
+    background-color: whitesmoke; 
+    color: #212121; 
+    border: none;
+    border-radius: 5px; 
+    padding: 10px; 
+    box-sizing: border-box; 
+  }
+   */
+  .or{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .3rem;
+}
+  .or .line{
+    border: 1px solid black;
+  }
+  .sign{
+    --tw-text-opacity: 1;
+    color: rgb(0 0 255 / var(--tw-text-opacity));
+}
+  .sign:hover{
+    --tw-text-opacity: 1;
+    color: rgb(128 0 128 / var(--tw-text-opacity));
+}
